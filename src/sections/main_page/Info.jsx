@@ -138,9 +138,9 @@ function Info() {
                           <strong>WEB2 <Typography className={classes.purpleTextGlowUnderline} variant='h2' display='inline'><strong>AI</strong></Typography> BOTS POWERED BY WEB3</strong> 
                       </Typography>
                   </Grid>
-                  <Grid item>
+                  {/* <Grid item>
                     <Button className={classes.buttonStyle}>PRE-SALE LIVE NOW</Button>
-                  </Grid>    
+                  </Grid>     */}
               </Grid>
             </Grid>
 

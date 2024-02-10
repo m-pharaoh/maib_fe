@@ -240,7 +240,7 @@ function Bots() {
                                   </Grid>
 
                                   <Grid item justifyContent='center' alignItems='center' alignContent='center'>
-                                    <Button className={classes.buttonStyle}>LAUNCH EMAIL AI BOT</Button>
+                                    <Button className={classes.buttonStyle}>LAUNCH EMAIL AI BOT (COMING SOON)</Button>
                                     
                                   </Grid>
 
