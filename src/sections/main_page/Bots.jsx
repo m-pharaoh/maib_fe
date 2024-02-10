@@ -251,7 +251,7 @@ function Bots() {
                                 </Grid>
                                 <Grid container justifyContent='center' alignItems='center' alignContent='center'>
                                   <Grid item direction='row' justifyContent='center' alignItems='center' alignContent='center'>
-                                      <Button variant="outlined" className={classes.buttonStyle} >DEMO VIDEO</Button>
+                                      <Button variant="outlined" className={classes.buttonStyle} href='https://youtu.be/lHq7M7TvI5c' target='_blank'>DEMO VIDEO</Button>
                                   </Grid>
 
                                 </Grid>
