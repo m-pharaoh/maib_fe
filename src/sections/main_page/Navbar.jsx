@@ -75,7 +75,7 @@ function Navbar() {
                 <Grid item lg={6} container justifyContent="center">
                   <Button className={classes.buttonStyle}>documentation</Button>
                   <Button className={classes.buttonStyle}>PRE-SALE (COMING SOON)</Button>
-                  <Button className={classes.buttonStyle} href='/revshare'>REVENUE SHARE</Button>
+                  <Button className={classes.buttonStyle} href='/revshare' target='_blank'>REVENUE SHARE</Button>
                 </Grid>
 
                 {/* Large button on the very right */}

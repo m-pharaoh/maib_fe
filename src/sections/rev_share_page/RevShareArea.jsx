@@ -200,8 +200,18 @@ function RevShareArea() {
 
           <Grid container spacing={1} direction="column" justifyContent='center'>
           <Snackbars open={open} setOpen={setOpen} severity={severity}/>
+              <Grid container item direction='row' justifyContent='space-evenly'>
+                    <Grid item>
+                      <Typography className={ classes.purpleTextGlow } variant='h4' align='center'>
+                          <strong>REVENUE SHARE BEGINS ON TOKEN LAUNCH DAY!</strong> 
+                      </Typography>
+
+                    </Grid>
+                    
+                  </Grid>
               
               <Grid container item className={classes.BoxesMarginT}>
+                  
                   <Grid container direction='row' justifyContent='space-evenly' spacing={2}>
 
                       <Grid item className={ classes.boxCard } xs={7} md={4}>
