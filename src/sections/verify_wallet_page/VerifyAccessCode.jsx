@@ -8,7 +8,6 @@ import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 import Snackbar from '@material-ui/core/Snackbar';
 import SnackbarContent from '@material-ui/core/SnackbarContent';
-import { red } from '@mui/material/colors';
 
 import Snackbars from '../../components/Snackbars';
 
