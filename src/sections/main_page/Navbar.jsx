@@ -73,7 +73,7 @@ function Navbar() {
 
                 {/* Group of text buttons in the middle */}
                 <Grid item lg={6} container justifyContent="center">
-                  <Button className={classes.buttonStyle}>documentation</Button>
+                  <Button className={classes.buttonStyle} href='https://docs.meta-ai-bots.com/' target='_blank'>documentation</Button>
                   <Button className={classes.buttonStyle}>PRE-SALE (COMING SOON)</Button>
                   <Button className={classes.buttonStyle} href='/revshare' target='_blank'>REVENUE SHARE</Button>
                 </Grid>
