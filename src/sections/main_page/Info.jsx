@@ -138,9 +138,9 @@ function Info() {
                           <strong>WEB2 <Typography className={classes.purpleTextGlowUnderline} variant='h2' display='inline'><strong>AI</strong></Typography> BOTS POWERED BY WEB3</strong> 
                       </Typography>
                   </Grid>
-                  {/* <Grid item>
-                    <Button className={classes.buttonStyle}>PRE-SALE LIVE NOW</Button>
-                  </Grid>     */}
+                  <Grid item>
+                    <Button className={classes.buttonStyle} href='https://www.pinksale.finance/launchpad/0xdEb744A9e733e9A23FA591f64A10F6bca235f025?chain=BSC' target='_blank'>PRE-SALE HERE!</Button>
+                  </Grid>    
               </Grid>
             </Grid>
 
