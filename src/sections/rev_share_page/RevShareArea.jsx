@@ -55,7 +55,7 @@ const useStyles = makeStyles((theme) => {
 
       blueTextGlow: {
         color: "rgb(182, 200, 247)",
-        textShadow: '0 0 100rem rgba(63, 81, 181, 0.8)',
+        // textShadow: '0 0 100rem rgba(63, 81, 181, 0.8)',
       },
 
       purpleTextGlow: {

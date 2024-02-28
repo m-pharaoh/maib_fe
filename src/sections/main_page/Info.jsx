@@ -51,14 +51,14 @@ const useStyles = makeStyles((theme) => {
       // new colours
       blueTextGlow: {
         color: "rgb(182, 200, 247)",
-        textShadow: '0 0 100rem rgba(63, 81, 181, 0.8)',
+        textShadow: '0 0 50px rgba(63, 81, 181, 0.8)',
       },
 
       blueTextGlowUnderline: {
         position: 'relative',
         display: 'inline-block',
         color: "rgb(220, 160, 240)",
-        textShadow: '0 0 100rem rgba(220, 160, 240, 0.8)',
+        textShadow: '0 0 50px rgba(220, 160, 240, 0.8)',
         '&::after': {
           content: '""',
           position: 'absolute',
@@ -75,7 +75,7 @@ const useStyles = makeStyles((theme) => {
         position: 'relative',
         display: 'inline-block',
         color: "rgb(220, 160, 240)",
-        textShadow: '0 0 100rem rgba(220, 160, 240, 0.8)',
+        textShadow: '0 0 50px rgba(220, 160, 240, 0.8)',
         '&::after': {
           content: '""',
           position: 'absolute',
