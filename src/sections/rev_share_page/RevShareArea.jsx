@@ -200,15 +200,6 @@ function RevShareArea() {
 
           <Grid container spacing={1} direction="column" justifyContent='center'>
           <Snackbars open={open} setOpen={setOpen} severity={severity}/>
-              <Grid container item direction='row' justifyContent='space-evenly'>
-                    <Grid item>
-                      <Typography className={ classes.purpleTextGlow } variant='h4' align='center'>
-                          <strong>REVENUE SHARE BEGINS ON TOKEN LAUNCH DAY!</strong> 
-                      </Typography>
-
-                    </Grid>
-                    
-                  </Grid>
               
               <Grid container item className={classes.BoxesMarginT}>
                   
@@ -290,10 +281,10 @@ function RevShareArea() {
 
                       {isRegistered && <Grid item className={classes.BoxesMarginT}>
                         <Typography className={classes.blueTextGlow} variant='h4' align='center'>
-                          <strong>NEXT REWARDS UPDATE: MAR. 2</strong> 
+                          <strong>NEXT REWARDS UPDATE: MARCH 9</strong> 
                         </Typography>
                         <Typography className={classes.secondaryText} variant='body1' align='center'>
-                          <strong>REWARDS ARE UPDATED ONCE A WEEK, AND AUTO-COMPOUND</strong> 
+                          <strong>REWARDS ARE UPDATED ONCE A WEEK, AND AUTO-COMPOUND. THEY ARE TYPICALLY UPDATED AT 6PM UTC.</strong> 
                         </Typography>
                       </Grid>}
                       

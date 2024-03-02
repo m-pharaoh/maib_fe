@@ -80,7 +80,7 @@ function Navbar() {
 
                 {/* Large button on the very right */}
                 {/* <Grid item lg={3} container justifyContent="center">
-                  <Button className={classes.buttonStyle}>LAUNCH META AI BOTS</Button>
+                  <Button className={classes.buttonStyle} href='https://t.me/meta_ai_web3_bot' target='_blank'>LAUNCH META AI BOTS</Button>
                 </Grid> */}
               </Grid>
             </Toolbar>
