@@ -240,7 +240,7 @@ function Bots() {
                                   </Grid>
 
                                   <Grid item justifyContent='center' alignItems='center' alignContent='center'>
-                                    <Button className={classes.buttonStyle}>LAUNCH EMAIL AI BOT (COMING SOON)</Button>
+                                    <Button className={classes.buttonStyle} href='https://t.me/meta_ai_web3_bot' target='_blank'>LAUNCH EMAIL AI BOT</Button>
                                     
                                   </Grid>
 

@@ -74,14 +74,14 @@ function Navbar() {
                 {/* Group of text buttons in the middle */}
                 <Grid item lg={6} container justifyContent="center">
                   <Button className={classes.buttonStyle} href='https://docs.meta-ai-bots.com/' target='_blank'>documentation</Button>
-                  <Button className={classes.buttonStyle} href='https://www.pinksale.finance/launchpad/0xdEb744A9e733e9A23FA591f64A10F6bca235f025?chain=BSC' target='_blank'>PRE-SALE HERE!</Button>
+                  {/* <Button className={classes.buttonStyle} href='https://www.pinksale.finance/launchpad/0xdEb744A9e733e9A23FA591f64A10F6bca235f025?chain=BSC' target='_blank'>PRE-SALE HERE!</Button> */}
                   <Button className={classes.buttonStyle} href='/revshare' target='_blank'>REVENUE SHARE</Button>
                 </Grid>
 
                 {/* Large button on the very right */}
-                {/* <Grid item lg={3} container justifyContent="center">
+                <Grid item lg={3} container justifyContent="center">
                   <Button className={classes.buttonStyle} href='https://t.me/meta_ai_web3_bot' target='_blank'>LAUNCH META AI BOTS</Button>
-                </Grid> */}
+                </Grid>
               </Grid>
             </Toolbar>
           </AppBar>
