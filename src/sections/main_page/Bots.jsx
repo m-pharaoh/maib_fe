@@ -235,7 +235,7 @@ function Bots() {
                                   <Grid item>
                                       <Typography variant="body1" className={classes.whiteText} >
                                         <Typography className={classes.blueTextGlow} display='inline' variant='body1'><strong>ACCESS: </strong></Typography>
-                                        <strong>AT LEAST 75,000 $MAIB TOKENS IN WALLET</strong> 
+                                        <strong>AT LEAST 100,000 $MAIB TOKENS IN WALLET</strong> 
                                       </Typography>
                                   </Grid>
 
