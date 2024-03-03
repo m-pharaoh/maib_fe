@@ -6,6 +6,7 @@ import Divider from '@material-ui/core/Divider';
 import IconButton from '@material-ui/core/IconButton';
 import TelegramIcon from '@material-ui/icons/Telegram';
 import TwitterIcon from '@material-ui/icons/Twitter';
+import { Link } from '@material-ui/core';
 
 
 const useStyles = makeStyles((theme) => {
@@ -23,6 +24,12 @@ const useStyles = makeStyles((theme) => {
         '& svg': {
           fontSize: "3rem"
         }
+      },
+
+      blueTextGlow: {
+        color: "rgb(182, 200, 247)",
+        textShadow: '0 0 50px rgba(63, 81, 181, 0.8)',
+        textDecoration: 'none'
       },
     }
 });
@@ -61,6 +68,14 @@ function Disclaimer() {
                   <TwitterIcon />
                 </IconButton>
 
+              </Grid>
+              
+              
+            </Grid>
+            <Grid container spacing={1} direction="row" justifyContent="center" alignItems="flex-start">
+              <Grid item>
+                <Typography className={ classes.blueTextGlow } component='a' href='https://bscscan.com/address/0xC218EF3Cc52D5D93b0eDEcf30Cdc2a98804cfeC5' target='_blank' rel="noopener noreferrer">0xC218EF3Cc52D5D93b0eDEcf30Cdc2a98804cfeC5</Typography>
+                
               </Grid>
               
               
