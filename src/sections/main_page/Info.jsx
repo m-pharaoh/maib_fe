@@ -138,9 +138,9 @@ function Info() {
                           <strong>WEB2 <Typography className={classes.purpleTextGlowUnderline} variant='h2' display='inline'><strong>AI</strong></Typography> BOTS POWERED BY WEB3</strong> 
                       </Typography>
                   </Grid>
-                  <Grid item>
+                  {/* <Grid item>
                     <Button className={classes.buttonStyle} href='https://pancakeswap.finance/swap?outputCurrency=0xC218EF3Cc52D5D93b0eDEcf30Cdc2a98804cfeC5' target='_blank'>BUY HERE!</Button>
-                  </Grid>    
+                  </Grid>     */}
               </Grid>
             </Grid>
 
