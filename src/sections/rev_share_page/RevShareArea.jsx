@@ -284,7 +284,7 @@ function RevShareArea() {
                           <strong>NEXT REWARDS UPDATE: MARCH 23</strong> 
                         </Typography>
                         <Typography className={classes.secondaryText} variant='body1' align='center'>
-                          <strong>REWARDS ARE UPDATED ONCE A WEEK, AND AUTO-COMPOUND. THEY ARE TYPICALLY UPDATED AT 6PM UTC.</strong> 
+                          <strong>REWARDS ARE UPDATED ONCE A WEEK, AND AUTO-COMPOUND.</strong> 
                         </Typography>
                       </Grid>}
                       
