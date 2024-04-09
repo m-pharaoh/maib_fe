@@ -79,8 +79,14 @@ function Reasons() {
                     </Typography>
                 </Grid>
 
+                {/* <Grid item className={classes.containerMt}>
+                    <Typography className={classes.whiteText} variant='h6'>
+                        <strong>coming soon.</strong> 
+                    </Typography>
+                </Grid> */}
+
                 <Grid container item className={classes.containerMt}>
-                  <Grid container justifyContent='space-between' spacing={5}>
+                  <Grid container justifyContent='space-evenly' spacing={5}>
                   
 
                     <Grid item md={4}>
@@ -102,24 +108,7 @@ function Reasons() {
 
                     </Grid>
 
-                    <Grid item md={4}>
-                      <Card className={classes.card}>
-                        <CardHeader
-                          title=<Typography className={classes.purpleTextGlow} variant='h5'>
-                            <strong>TRUSTED TEAM</strong> 
-                        </Typography>
-                        />
-                        <CardContent>
-                          <Typography className={classes.whiteText} variant='h6'>
-                          Tired of random anon teams? Our team's journey spans multiple years of dedicated involvement in the DEFI landscape. Our collective expertise has fueled the successful development of multiple DEFI projects (such as the famous BUSD BANK). Through transparent practices and an unwavering commitment to integrity, we've garnered the confidence of our users and established strong relationships with key partners. These alliances stand as testament to our commitment to excellence and innovation, paving the way for a future where trust and collaboration define success in DEFI.
-
-                          </Typography>
-                        </CardContent>
-
-                      </Card>
-
-
-                    </Grid>
+                 
 
                     <Grid item md={4}>
                       <Card className={classes.card}>
