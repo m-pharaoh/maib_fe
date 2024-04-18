@@ -281,7 +281,7 @@ function RevShareArea() {
 
                       {isRegistered && <Grid item className={classes.BoxesMarginT}>
                         <Typography className={classes.blueTextGlow} variant='h4' align='center'>
-                          <strong>NEXT REWARDS UPDATE: APRIL 14</strong> 
+                          <strong>NEXT REWARDS UPDATE: APRIL 25</strong> 
                         </Typography>
                         <Typography className={classes.secondaryText} variant='body1' align='center'>
                           <strong>REWARDS ARE UPDATED ONCE A WEEK, AND AUTO-COMPOUND.</strong> 
